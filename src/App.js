@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Route } from 'react-router-dom';
 import data from './data';
+import ProductContext from './context/products'
+import CartContext from './context/cart'
 
 // Components
 import Navigation from './components/Navigation';
